@@ -1,0 +1,52 @@
+{
+  "name": "median-primes-finder",
+  "version": "1.0.0",
+  "description": "Node.js backend for the median prime number calculation web application.",
+  "main": "app.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "client-build": "cd client && npm run build",
+    "start": "npm run client-build && node src/app.js",
+    "local-start": "nodemon src/app.js",
+    "test": "nyc mocha --recursive ./src/tests/**/*.js && nyc report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzharShaikhSE/median-primes-finder.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "median-prime",
+    "backend"
+  ],
+  "author": "Azhar Shaikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzharShaikhSE/median-primes-finder/issues"
+  },
+  "homepage": "https://github.com/AzharShaikhSE/median-primes-finder#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "chai": "^4.3.10",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "nyc": "^15.1.0",
+    "sinon": "^16.1.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.1",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "redis": "3.1.2"
+  }
+}
