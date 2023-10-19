@@ -3,8 +3,8 @@
 This is a full-stack app that allows you to find the median prime number(s) less than a specified integer.
 
 ## Author Details:
-1. Do you have production experience with Node prior to the submission of this code challenge? If yes, for how long? - `6 years`
-2. Do you have production experience with React prior to the submission of this code challenge? If yes, for how long? - `2 years`
+1. Production experience with Node - `6 years`
+2. Production experience with React - `2 years`
 3. Full name: `Mohamed Azhar Shaikh`
 
 
