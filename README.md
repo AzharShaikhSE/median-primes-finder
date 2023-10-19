@@ -42,7 +42,7 @@ Currently, the app has a limitation where it allows a maximum upper limit of 50 
 
 To further improve the app, you can consider implementing the following enhancements:
 
-1. **Optimized Algorithm**: Explore and implement more efficient algorithms for finding prime numbers, such as the Sieve of Eratosthenes or the Miller-Rabin primality test.
+1. **Optimized Algorithm**: Explore and implement more efficient algorithms for finding prime numbers, such as the Segmented version Sieve of Eratosthenes or the Miller-Rabin primality test.
 
 2. **Distributed Computing**: Utilize distributed computing techniques, such as parallel processing or cloud-based solutions, to distribute the computation across multiple machines or nodes.
 
