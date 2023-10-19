@@ -3,7 +3,7 @@
 This is a full-stack app that allows you to find the median prime number(s) less than a specified integer.
 
 ## Author Details:
-1. Do you have production experience with Node prior ts the submission of this code challenge? If yes, for how long? - `6 years`
+1. Do you have production experience with Node prior to the submission of this code challenge? If yes, for how long? - `6 years`
 2. Do you have production experience with React prior to the submission of this code challenge? If yes, for how long? - `2 years`
 3. Full name: `Mohamed Azhar Shaikh`
 
@@ -22,12 +22,7 @@ git clone https://github.com/AzharShaikhSE/median-primes-finder.git
 cd median-primes-finder
 ```
 
-3. Install the required dependencies:
-``` bash
-npm install
-```
-
-4. Start the app:
+3. Start the app:
 ``` bash
 npm start
 ```
@@ -63,11 +58,36 @@ To further improve the app, you can consider implementing the following enhancem
 
 ## Running Test Cases
 
-To run the test cases for the app, use the following command:
+To run the test cases for the backend, use the following command:
 ``` bash
 npm test
 ```
+![image](https://github.com/AzharShaikhSE/median-primes-finder/assets/26828014/1ff2b1ab-cdc0-4f2c-a829-9b92c298e1e5)
 
-## Live Demo
 
-You can find a live demo of the app at .
+To run the test cases for the client, use the following command:
+``` bash
+cd client
+npm test
+```
+![image](https://github.com/AzharShaikhSE/median-primes-finder/assets/26828014/2f7c7663-06f0-4ab4-bd10-ff14ccc94fdc)
+
+
+## Screenshot
+
+![image](https://github.com/AzharShaikhSE/median-primes-finder/assets/26828014/94615e9e-b86e-4ea7-80fe-f25859db8cfc)
+
+![image](https://github.com/AzharShaikhSE/median-primes-finder/assets/26828014/6f35f5c1-9577-401c-b499-91a2182b91c3)
+
+![image](https://github.com/AzharShaikhSE/median-primes-finder/assets/26828014/d494b81e-6b68-43a6-b6e9-8a99e1fce383)
+
+![image](https://github.com/AzharShaikhSE/median-primes-finder/assets/26828014/cffe3d5f-2a14-4fb0-8008-3fa585293175)
+
+![image](https://github.com/AzharShaikhSE/median-primes-finder/assets/26828014/0943e5d6-0349-4473-b0e7-633ef3cf8ccd)
+
+
+
+
+
+
+
