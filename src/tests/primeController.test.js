@@ -90,7 +90,7 @@ describe("Primes Controller", () => {
       const findMedianPrimesStub = sinon.stub(primesService, "findMedianPrimes");
       findMedianPrimesStub.throws(new Error("Failure"));
 
-      const req = { query: { n: "10" } };
+      const req = { query: { n: "100000000000" } };
       const res = {
         status: function (statusCode) {
           expect(statusCode).to.equal(500);

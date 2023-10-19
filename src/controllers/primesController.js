@@ -31,7 +31,6 @@ function getMedianPrimes(req, res) {
     }
   } catch (error) {
     // Handle the error and return it in the response
-    console.error("An error occurred:", error);
     if (
       error instanceof RangeError &&
       error.message === "Invalid array length"
