@@ -7,22 +7,30 @@ This is a full-stack app that allows you to find the median prime number(s) less
 To install and run the app, please follow these steps:
 
 1. Clone the repository to your local machine:
+``` bash
 git clone https://github.com/AzharShaikhSE/median-primes-finder.git
+```
 
 2. Navigate to the project directory:
+``` bash
 cd median-primes-finder
+```
 
 3. Install the required dependencies:
+``` bash
 npm install
+```
 
 4. Start the app:
+``` bash
 npm start
+```
 
 ## Folder Structure
 
 The project follows a backend-for-frontend (BFF) structure.
 
-- `median-primes-finder`: Contains the server-side code and API endpoints, as well as the client-side code (in seperate `client` folder).
+- `median-primes-finder`: Contains the server-side code and API endpoints, as well as the client-side code (in a separate `client` folder).
 - `median-primes-finder/client`: Contains the client-side code and user interface components.
 
 ## Limitations
@@ -45,12 +53,14 @@ To further improve the app, you can consider implementing the following enhancem
 
 6. **API Versioning**: Consider implementing API versioning to manage changes and updates to the API endpoints, ensuring backward compatibility and providing a clear versioning strategy.
 
-Please note that these enhancements were not implemented in the current version of the app due to time constraints, as this was a coding exercise. However, they can be valuable additions to improve the functionality, performance, and security of the app in the future.
+> **Note:** These enhancements were not implemented in the app's current version due to time constraints, as this was a coding exercise. However, they can be valuable additions to improve the functionality, performance, and security of the app in the future.
 
 ## Running Test Cases
 
 To run the test cases for the app, use the following command:
+``` bash
 npm test
+```
 
 ## Live Demo
 
