@@ -6,7 +6,7 @@
   "scripts": {
     "client-install": "cd client && npm install",
     "client-build": "cd client && npm run build",
-    "start": "npm run client-build && node src/app.js",
+    "start": "npm install && npm run client-install && npm run client-build && node src/app.js",
     "local-start": "nodemon src/app.js",
     "test": "nyc mocha --recursive ./src/tests/**/*.js && nyc report --reporter=html"
   },
